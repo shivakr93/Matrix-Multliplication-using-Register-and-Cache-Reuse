@@ -1,7 +1,7 @@
-//#include <mpi.h>
+#include <mpi.h>
 #include <math.h>
 #include <stdio.h>
-//#include "MyMPI.h"
+#include "MyMPI.h"
 #define MIN(a,b)  (((a)<(b))?(a):(b))
 #define BLOCK_LOW(id,p,n) ((id)*(n)/p)
 
